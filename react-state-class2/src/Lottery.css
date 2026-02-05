@@ -1,0 +1,10 @@
+.ticket {
+    border:1px solid pink;
+    border-radius:14px;
+}
+
+/* Scoped styles for Lottery component */
+.lottery h1,
+.lottery h3 {
+    font-weight: 700;
+}

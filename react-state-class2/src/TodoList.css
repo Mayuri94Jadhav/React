@@ -1,0 +1,72 @@
+/* Styles for TodoList component */
+.todo-container {
+  max-width: 520px;
+  margin: 20px auto;
+  padding: 16px;
+  background: #fbfbfd;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(13,20,30,0.04);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.todo-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #d9d9e0;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn-add {
+  background: linear-gradient(90deg,#4caf50,#66bb6a);
+}
+
+.btn-delete {
+  background: linear-gradient(90deg,#ef5350,#e53935);
+}
+
+.btn-mark {
+  background: linear-gradient(90deg,#42a5f5,#1e88e5);
+}
+
+.btn-mark-all {
+  background: linear-gradient(90deg,#8e24aa,#6a1b9a);
+  margin-top: 14px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 6px;
+  border-bottom: 1px solid #f0eef6;
+}
+
+.todo-task {
+  flex: 1;
+  margin-right: 12px;
+  color: #111827;
+}
+
+.todo-task.done {
+  text-decoration: line-through;
+  color: #7b7b8a;
+}
+
+.todo-buttons { display: flex; gap: 6px; }
